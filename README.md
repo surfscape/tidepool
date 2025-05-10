@@ -1,2 +1,3 @@
-# tidepool
-SurfScape official wiki
+# Tidepool
+
+The official wiki for the SurfScape project
