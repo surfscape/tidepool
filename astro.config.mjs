@@ -5,7 +5,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://surfscape.github.io',
-	base: 'tidepool',
+	base: '/tidepool',
 	integrations: [
 		starlight({
 			title: 'Tidepool',
