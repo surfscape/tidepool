@@ -2,10 +2,13 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
+const isDev = import.meta.env.DEV;
+const isProd = import.meta.env.PROD;
+
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://surfscape.github.io',
-	base: '/tidepool',
+	base: isProd ? 'tidepool' : '',
 	integrations: [
 		starlight({
 			title: 'Tidepool',
